@@ -26,9 +26,15 @@ namespace CSharpBasics.Linq
 			Console.WriteLine ("Items with their occurances is:");
 
 			foreach (var item in groupAggregateQuery) {
-				var formattedItem = string.Format ("Item: {0} - occurance: {2}", item.Produce, item.Occurances);
+				var formattedItem = string.Format ("Item: {0} - occurance: {1}", item.Produce, item.Occurances);
 				Console.WriteLine (formattedItem);
 			}
+
+
+			var maxValue = farmItems.Max (x => x.Cost);
+			var itemWithMax = farmItems.Where (x => x.Cost == maxValue).FirstOrDefault();
+
+			Console.WriteLine ("Max cost for item {0} is : {1}", itemWithMax.Name, itemWithMax.Cost);
 		}
 	}
 }

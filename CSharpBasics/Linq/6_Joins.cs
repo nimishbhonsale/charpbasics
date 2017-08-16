@@ -40,30 +40,30 @@ namespace CSharpBasics.Linq
 				Console.WriteLine (item.Produce);
 			}
 
-
+			/*
 			// Get the items which farmer 1 and farmer 2 both have produced.
 			var queryWithItemsFromFarm2 = 
 				from f1 in farmer1Items 
 				join f2 in farmer2Items on f1.Name equals f2.Name
-				select new {Produce = f1.Name, Items = f2};
+				select new {Produce = string.Format("{0} {1}",f1.Name,f1.Quantity), Item = f2};
 
 			var queryWithItemsFromFarm1 = 
 				from f1 in farmer1Items 
 				join f2 in farmer2Items on f1.Name equals f2.Name
-				select new {Produce = f2.Name, Items = f1};
+				select new {Produce = string.Format("{0} {1}",f2.Name,f2.Quantity) , Item = f1};
 
-			/*
+
 			Console.WriteLine ("Items farmer 2 has produced with farm 1:");
 
 			foreach (var item in queryWithItemsFromFarm2) {
-				var formattedItem = string.Format ("{0} {1} priced at {2}", item.Produce, , item.Cost);
+				var formattedItem = string.Format ("{0} {1} priced at {2}", item.Produce, item.Item.Name , item.Item.Cost);
 				Console.WriteLine (formattedItem);
 			}
 
 			Console.WriteLine ("Items farmer 1 has produced with farm 2:");
 
-			foreach (var item in items) {
-				var formattedItem = string.Format ("{0} {1} priced at {2}", item.GetType ().Name, item.Name, item.Cost);
+			foreach (var item in queryWithItemsFromFarm1) {
+				var formattedItem = string.Format ("{0} {1} priced at {2}", item.Produce, item.Item.Name , item.Item.Cost);
 				Console.WriteLine (formattedItem);
 			}
 			*/

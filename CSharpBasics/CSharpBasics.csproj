@@ -53,6 +53,7 @@
     <Compile Include="Linq\6_Joins.cs" />
     <Compile Include="Http\HttpRequestExample.cs" />
     <Compile Include="Delegates\DelegateExamples.cs" />
+    <Compile Include="ExpressionTrees\ExpressionTreesExample.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -60,5 +61,7 @@
     <Folder Include="Delegates\" />
     <Folder Include="Serialization\" />
     <Folder Include="Http\" />
+    <Folder Include="Component\" />
+    <Folder Include="ExpressionTrees\" />
   </ItemGroup>
 </Project>

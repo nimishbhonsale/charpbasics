@@ -1,19 +1,14 @@
-﻿<Properties StartupItem="CSharpBasics/CSharpBasics.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CSharpBasics/Program.cs">
+﻿<Properties StartupConfiguration="{CCD3F9D4-0336-4C3D-B629-6EA21C6C0723}|Default" StartupItem="CSharpBasics/CSharpBasics.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../csharpbasics/CSharpBasics/Program.cs">
     <Files>
-      <File FileName="CSharpBasics/Http/HttpRequestExample.cs" Line="45" Column="5" />
-      <File FileName="CSharpBasics/Program.cs" Line="22" Column="33" />
-      <File FileName="CSharpBasics/Delegates/1_BasicDelegate.cs" Line="21" Column="4" />
-      <File FileName="CSharpBasics/Delegates/DelegateExamples.cs" Line="18" Column="3" />
-      <File FileName="CSharpBasics/Delegates/2_AnonMethodAndLambda.cs" Line="13" Column="39" />
-      <File FileName="CSharpBasics/Delegates/3_BuiltInDelegates.cs" Line="33" Column="3" />
-      <File FileName="CSharpBasics/Delegates/4_ExpressionTreeExample.cs" Line="3" Column="33" />
-      <File FileName="CSharpBasics/Delegates/Models.cs" Line="3" Column="11" />
+      <File FileName="../csharpbasics/CSharpBasics/Program.cs" Line="114" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CSharpBasics PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
