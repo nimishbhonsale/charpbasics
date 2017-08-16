@@ -3,23 +3,20 @@
 Basics of the C# language with working examples built using monodevelop
 
 
-###Delegates
+##Delegates
 
 Delegates are pointers to function used to implement events and callback methods. 
 
-####Anonymous methods
-	Anonymous method is a method with no  name just body
+Anonymous methods
+Anonymous method is a method with no  name just body
 
-####Built-In Delegates
-
+Built-In Delegates
 1. Action -  Input 1 or more params of type T, return void 
-
 2. Func - Input of type T, return of type Tr 
-
 3. Predicate - Used to verify a criteria of method, returns bool 
 
 
-###LINQ
+##LINQ
 
 Short for Language Integrated Query
 
@@ -30,7 +27,7 @@ Short for Language Integrated Query
 5. Linq to Xml
 
 
-###LINQ – Querying & Lambda Operator
+##LINQ – Querying & Lambda Operator
 
 1. Restriction
 2. Projection
@@ -44,7 +41,7 @@ Short for Language Integrated Query
 10. Lazy vs Eager execution
 
 
-###Expression Trees
+##Expression Trees
 
 Code in a tree-like data structure, where each node is an expression
 
@@ -58,7 +55,7 @@ This consists of:
 Basically, the following: (a,b) => a + b;  maps to  public int function(int a, int b) { return a + b; }
 
 
-####EXAMPLE – Expression<Tdelegate>
+##EXAMPLE – Expression<Tdelegate>
 	
 Body: Retrieves body of the expression.
 Parameters: Retrieve the parameters
